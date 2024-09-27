@@ -1,0 +1,90 @@
+#game-container {
+  height: 10%;
+  width: 80%;
+  margin: auto; /* Center horizontally */
+  text-align: center; /* Optionally center content within the container */
+  padding: 2%;
+}
+
+#game-header{
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8em;
+  color: aqua;
+}
+  #current-number {
+    /* font-size: 36px; */
+    font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8em;
+  color: yellow;
+  }
+  
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  
+  #chances {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    display: flex;
+    align-items: center; /* This line centers the items vertically */
+    justify-content: center; /* This line centers the items horizontally */
+    margin-top: 15px;
+  }
+  
+  #chances.warning {
+    color: red;
+  }
+  
+  #chances.critical {
+    color: orange;
+  }
+
+  #chances.normal{
+    color:white;
+  }
+  
+  #restart-button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  body {
+    display: flex;
+    flex-direction: column; /* Added line */
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    /* min-height: 100vh; */
+  }
+  #higher{
+    width: 80%;
+  }
+  #lower{
+    width: 80%;
+  }
+  #restart{
+    width: 90%;
+  }
+  #heart-image{
+    height: 40px;
+    width: 40px;
+  }
+
+  #score{
+    font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5em;
+  color: greenyellow;
+  }
+
+#bootstrap-alert-restart{
+  margin-top: 20px;
+}
